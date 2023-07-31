@@ -1,0 +1,5 @@
+export const ADD_PRODUCT = "ADD_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+export const UPDATE_PRODUCT = "EDIT_PRODUCT";
+export const SEARCH_PRODUCT = "SEARCH_PRODUCT";
+export const CLEAR_SEARCH = "CLEAR_SEARCH";

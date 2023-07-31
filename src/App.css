@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+ 
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
 }
 
-.card {
-  padding: 2em;
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a ,li{
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+img{
+  width:100%;
+
+}
+section{
+  padding:60px 0px;
+}
+.section__title{
+  color:var(--primary-color);
+  font-weight: 600;
+}
+.title > h2{
+  display: inline-block;
+  border-bottom: 2px solid rgb(3, 3, 77);
+  margin:2rem 0;
+}
+.cursor__icon{
+  cursor: pointer;
+  margin:0 0.2vmax;
+  font-size: 20px;
+
 }
