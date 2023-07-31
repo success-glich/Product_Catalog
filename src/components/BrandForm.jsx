@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
-import { ADD_BRAND } from "../constants/brandConstants";
 import { useBrand } from "../contexts/BrandContext";
 import { toast } from "react-toastify";
 

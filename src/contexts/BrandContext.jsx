@@ -1,4 +1,3 @@
-// src/contexts/BrandContext.js
 import React, { createContext, useContext, useReducer, useState } from "react";
 import { brandReducer } from "../reducers/brandReducer";
 import brandsData from "../assets/data/brandData.json";

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Input, Button, Col, Row } from "reactstrap";
 import { useBrand } from "../contexts/BrandContext";
 import { useProduct } from "../contexts/ProductContext";
