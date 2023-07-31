@@ -1,10 +1,6 @@
 import React from "react";
 import "../styles/header.css";
-import { motion } from "framer-motion";
-// import logo from "../../assets/images/eco-logo.png";
 import logo from "../assets/react.svg";
-// import userIcon from "../../assets/images/user-icon.png";
-// import { NavLink } from "react-router-dom";
 import { Container, Row } from "reactstrap";
 
 const nav__links = [

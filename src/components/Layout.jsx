@@ -5,6 +5,7 @@ import BrandForm from "./BrandForm";
 import ProductForm from "./ProductForm";
 import SearchProduct from "./SearchProduct";
 import ProductList from "./ProductList";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
@@ -33,6 +34,7 @@ const Layout = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 };
