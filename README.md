@@ -34,3 +34,5 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 
 3. Install the project dependencies:
 
+##Deployed URL
+https://64c7fe8eea1c163759fc0ed0--voluble-blancmange-939a21.netlify.app/
